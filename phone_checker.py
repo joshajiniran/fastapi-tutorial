@@ -1,9 +1,12 @@
 # function
 def check_phone_number_correct(phone: str):
-    if len(phone) < 11 or len(phone) > 11:
-        return False
+    if phone.startswith('+234') and len(phone) == 14:
+        return True
+    
+    if len(phone) == 11 and not phone.startswith('+234'):
+        return True
 
-    return True
+    return False
 
 
 # subroutine
