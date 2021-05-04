@@ -1,0 +1,7 @@
+dlcf_venv/
+.vscode/
+*.pyc/
+__pycache__/
+tutorial.py
+phone_checker.py
+prime_number.py
